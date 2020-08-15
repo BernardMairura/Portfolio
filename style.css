@@ -1,10 +1,64 @@
-h1{
-    color: green;
- }
- p{
-     background-color: #00ffff;
- }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
- .images-bern {
-     width: 300px;
- }
+*{
+    padding: 0 bold;
+    margin: 0 bold;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+body{
+    background: whitesmoke;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.bold{font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.semi_bold{
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.cv{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+
+}
+.cv .cv_left{
+    width: 280px;
+    background:#0bb5f4 ;
+
+}
+
+.cv .cv_left .cv_profile{
+    width: 100;
+    height: 280px;
+
+}
+
+.cv .cv_left .cv_profile images-bern{
+    width: 300px;
+    
+}
+
+.images-bern{
+    width: 300px;
+    
+}
+
+.cv .cv_left .cv_content{
+    padding: 0 25px;
+}
+
+
