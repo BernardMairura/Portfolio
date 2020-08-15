@@ -25,6 +25,6 @@
 
 ### License and Copyright
 
-Copyright (c) {Bernardmairura, Moringa School}
+Copyright (c) {Bernardmairura, Moringa School, year 2020}
 
 License under the [MIT License](LICENSE).
