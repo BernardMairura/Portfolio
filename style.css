@@ -10,10 +10,15 @@
 }
 
 body{
-    background: whitesmoke;
+    background: #585c68;
     font-size: 14px;
     line-height: 22px;
     color: #555555;
+}
+
+img{
+    width: 280px;
+    height: 290px;
 }
 
 .bold{font-weight: 700;
@@ -47,18 +52,89 @@ body{
 
 }
 
-.cv .cv_left .cv_profile images-bern{
-    width: 300px;
-    
-}
-
-.images-bern{
-    width: 300px;
-    
-}
-
 .cv .cv_left .cv_content{
     padding: 0 25px;
 }
+ 
+.cv .title{
+    margin-bottom: 20px;
+}
 
+.cv .cv_left .bold{
+    color: #fff;
+}
 
+.cv .cv_left .regular{
+    color: #b1eaff;
+}
+
+.cv .cv_item{
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.cv .cv_left .cv_item:last-child{
+border-bottom: 0px;
+}
+
+.cv .cv_left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cv .cv_left ul li:last-child{
+    margin-bottom: 0;
+}
+
+.cv .cv_left ul li .icon{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    font-size: 15px;
+    position: relative;
+
+}
+
+.cv .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.cv .cv_left ul li .date{
+    color: #b1eaff;
+}
+
+.cv .cv_left .cv_skills ul li{
+color: #b1eaff;
+justify-content: space-between;
+}
+
+.cv .cv_left .cv_skills ul li .skill_name{
+    width: 25%;
+}
+
+.cv .cv_left .cv_skills ul li .skill_progress{
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+.cv .cv_left .cv_skills ul li .skill_per{
+    width: 15%;
+}
+
+.cv .cv_left .cv_skills ul li .skill_progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
