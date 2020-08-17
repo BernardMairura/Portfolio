@@ -1,12 +1,12 @@
 <!--headings-->
 
-# {Moringa Prep34 Project}
+# {Moringa Prep34 Project-Portfolio}
 
 #### {Making basic web pages by use of html and css}, {16th Aug 2020}
 
 ## Description
 
-{This project is intended to help those venturing into web development.The project touches basic principles for beginners.The use of Git and Github is key and essential in this project and it acts as the main play ground for coding.I have touched on all the tags used in html and linked all the styling used with CSS. }
+{This project is intended to help those venturing into web development.The project touches basic principles for beginners.The use of Git and Github is key and essential in this project and it acts as the main play ground for coding.I have touched on the common used tags in html and linked a few styling options from CSS. }
 
 ## Setup/Installation Requirements
 
