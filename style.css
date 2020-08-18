@@ -128,11 +128,11 @@ justify-content: space-between;
     position: relative;
 }
 
-.cv .cv_left .cv_skills ul li .skill_per{
+.cv .cv_left .cv_skill ul li .skill_per{
     width: 15%;
 }
 
-.cv .cv_left .cv_skills ul li .skill_progress span{
+.cv .cv_left .cv_skill ul li .skill_progress span{
     position: absolute;
     top: 0;
     left: 0;
