@@ -111,16 +111,16 @@ border-bottom: 0px;
     color: #b1eaff;
 }
 
-.cv .cv_left .cv_skills ul li{
+.cv .cv_left .cv_skill ul li{
 color: #b1eaff;
 justify-content: space-between;
 }
 
-.cv .cv_left .cv_skills ul li .skill_name{
+.cv .cv_left .cv_skill ul li .skill_name{
     width: 25%;
 }
 
-.cv .cv_left .cv_skills ul li .skill_progress{
+.cv .cv_left .cv_skill ul li .skill_progress{
     width: 60%;
     margin: 0 5px;
     height: 5px;
