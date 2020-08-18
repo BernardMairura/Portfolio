@@ -143,3 +143,25 @@ justify-content: space-between;
     width: 530px;
     background: #fff;
 }
+
+.cv .cv_right .cv ul li:after,
+.cv .cv_right .cv ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 21px;
+    width: 3px;
+    height: 115px;
+    background: #0bb5f4;
+}
+
+.cv .cv_right .cv_work ul li:before,
+.cv .cv_right .cv_education ul li:before{
+    content: "";
+    position: absolute;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+}
