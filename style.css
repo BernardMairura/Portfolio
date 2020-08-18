@@ -93,7 +93,8 @@ border-bottom: 0px;
     background: #fff;
     color: #0bb5f4;
     border-radius: 50%;
-    font-size: 15px;
+    margin-right: 15px;
+    font-size: 16px;
     position: relative;
 
 }
@@ -106,7 +107,7 @@ border-bottom: 0px;
 
 }
 
-.cv .cv_left ul li .date{
+.cv .cv_left ul li .data{
     color: #b1eaff;
 }
 
